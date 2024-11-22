@@ -1,0 +1,63 @@
+name: muzikk
+description: "An OpenSource Music Player App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  youtube_explode_dart: ^2.3.5
+  audioplayers: ^6.1.0
+  path_provider: ^2.1.5
+  collection: ^1.18.0
+  shared_preferences: ^2.3.3
+  just_audio: ^0.9.42
+  google_fonts: 6.2.1
+  audio_service: ^0.18.4
+  cached_network_image: ^3.4.1
+  like_button: ^2.0.5
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+  hive: ^2.2.3
+  package_info_plus: ^8.1.1
+  # marquee: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/images/appicon.png"
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/sounds/
+  
+  

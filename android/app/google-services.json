@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "363704809445",
+    "project_id": "dhwani-music-app",
+    "storage_bucket": "dhwani-music-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363704809445:android:b23c808300839fb609e10c",
+        "android_client_info": {
+          "package_name": "com.devbyakshay.dhwani"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0kbaOMMpgO0uF0ESOrLVXXsprCcM2fNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
