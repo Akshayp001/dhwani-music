@@ -1,4 +1,4 @@
-# muzikk
+# Dhwani Music
 
 A new Flutter project.
 
