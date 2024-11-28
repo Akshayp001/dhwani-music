@@ -9,6 +9,8 @@ import 'now_playing_screen.dart';
 class MusicPlayerScreen extends StatelessWidget {
   final MusicController _controller = Get.put(MusicController());
 
+  MusicPlayerScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     final TextEditingController urlController = TextEditingController();

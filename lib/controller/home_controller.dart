@@ -24,10 +24,6 @@ class HomeController extends GetxController {
     selectedIndexOfPage.value = index;
   }
 
-  @override
-  void onInit() {
-    super.onInit();
-  }
 
   @override
   void onClose() {

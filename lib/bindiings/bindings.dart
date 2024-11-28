@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
 import 'package:muzikk/controller/now_playing_controller.dart';
-import 'package:muzikk/services/music_service.dart';
 
 import '../controller/music_main_controller.dart';
 

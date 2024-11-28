@@ -7,11 +7,11 @@ class QueueBottomSheet extends StatefulWidget {
   final Function(int index) onRemove;
 
   const QueueBottomSheet({
-    Key? key,
+    super.key,
     required this.queue,
     required this.onReorder,
     required this.onRemove,
-  }) : super(key: key);
+  });
 
   @override
   State<QueueBottomSheet> createState() => _QueueBottomSheetState();

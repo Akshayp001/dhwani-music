@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class ScrollingText extends StatefulWidget {
   final String text;
 
-  const ScrollingText({required this.text, Key? key}) : super(key: key);
+  const ScrollingText({required this.text, super.key});
 
   @override
   State<ScrollingText> createState() => _ScrollingTextState();

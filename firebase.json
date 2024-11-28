@@ -1,0 +1,25 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "dhwani-music-app",
+          "appId": "1:363704809445:android:b23c808300839fb609e10c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "dhwani-music-app",
+          "configurations": {
+            "android": "1:363704809445:android:b23c808300839fb609e10c",
+            "ios": "1:363704809445:ios:cfc9ebbcc4b5b43509e10c",
+            "macos": "1:363704809445:ios:cfc9ebbcc4b5b43509e10c",
+            "web": "1:363704809445:web:33e583afd63948ea09e10c",
+            "windows": "1:363704809445:web:e8419ada96d3738b09e10c"
+          }
+        }
+      }
+    }
+  }
+}

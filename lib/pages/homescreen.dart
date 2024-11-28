@@ -7,6 +7,8 @@ import 'package:muzikk/widgets/music_fab.dart';
 class HomeScreen extends StatelessWidget {
   final HomeController _controller = Get.put(HomeController());
 
+  HomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

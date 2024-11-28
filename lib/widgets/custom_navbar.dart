@@ -6,7 +6,7 @@ import 'package:muzikk/controller/home_controller.dart';
 class CustomNavbar extends StatelessWidget {
   HomeController homeController;
 
-  CustomNavbar({required this.homeController, Key? key}) : super(key: key);
+  CustomNavbar({required this.homeController, super.key});
   final primaryColor = const Color.fromARGB(255, 41, 2, 63);
   final secondaryColor = const Color.fromARGB(255, 97, 8, 123);
   final accentColor = const Color(0xffffffff);
@@ -62,12 +62,11 @@ class CustomNavbar extends StatelessWidget {
 
 class IconBottomBar extends StatelessWidget {
   const IconBottomBar(
-      {Key? key,
+      {super.key,
       required this.text,
       required this.icon,
       required this.selected,
-      required this.onPressed})
-      : super(key: key);
+      required this.onPressed});
   final String text;
   final IconData icon;
   final bool selected;
